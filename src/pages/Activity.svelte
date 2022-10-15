@@ -38,7 +38,7 @@
   `
 </script>
 
-<Container title={"活動紹介"} color={"bg-teal-200"} description={"普段の活動を紹介します"}/>
+<Container title={"活動紹介"} color={"bg-teal-200"} description={"普段の活動を紹介します"} linkTo={""}/>
 
 <div class="mx-auto w-5/6">
   <SvelteMarkdown {source}/>

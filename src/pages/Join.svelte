@@ -26,7 +26,7 @@
   `
 </script>
 
-<Container title={"入部希望の方へ"} color={"bg-teal-200"}/>
+<Container title={"入部希望の方へ"} color={"bg-teal-200"} linkTo={""} description={""}/>
 
 <div class="mx-auto w-5/6">
   <SvelteMarkdown {source}/>
