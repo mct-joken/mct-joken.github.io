@@ -32,7 +32,7 @@
   `
 </script>
 
-<Container title={"活動実績のページ"} color={"bg-teal-200"}/>
+<Container title={"活動実績のページ"} color={"bg-teal-200"} bgImage={false} linkTo={""} description={""} />
 
 <div class="mx-auto w-5/6">
   <SvelteMarkdown {source}/>

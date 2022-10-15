@@ -42,12 +42,15 @@ export default {
 		svelte({
 			preprocess: sveltePreprocess({
 				sourceMap: !production,
-				postcss: {
-					plugins: [
-						require("tailwindcss"),
-						require("autoprefixer")
-					],
-				},
+				postcss: true,
+				// {
+					
+					// plugins: [
+					// 	require("tailwindcss"),
+					// 	require("autoprefixer")
+					// ],
+				// }
+				// ,
 			}),
 			compilerOptions: {
 				// enable run-time checks when not in production
