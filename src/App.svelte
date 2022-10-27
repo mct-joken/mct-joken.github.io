@@ -9,6 +9,7 @@
   import Memberlist from "./pages/Memberlist.svelte";
   import Works from "./pages/Works.svelte";
   import NotFound from "./pages/404.svelte" 
+  import Footer from "./components/Footer.svelte"
 
   const routes = {
     "/":  Home,
@@ -33,10 +34,8 @@
       <Memberlist/>
       <Join/>
       <Home/> -->
+    <Footer/>
   </main>
-  <footer class="text-center">
-    <p>(C) 2022 松江高専 情報科学研究部</p>
-  </footer>
 </div>
 
 <style>
