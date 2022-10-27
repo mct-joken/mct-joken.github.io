@@ -1,5 +1,5 @@
 <footer class="w-full z-40 bg-gray-900 mx-auto rounded-bl rounded-br shadow border-b border-gray-200">
-    <div class="container px-40 flex justify-between items-center">
+    <div class="w-full container px-40 flex justify-between items-center">
       <span class="font-semibold w-full text-xl text-white tracking-tight centering_item">
         <p>連絡先 : me(at)laminne33569.net</p>
         <p>(atをアットマークに置換してください)</p>
